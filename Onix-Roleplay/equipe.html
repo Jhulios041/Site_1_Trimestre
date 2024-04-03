@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipe - onix</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./assets/css/equipe.css">
+
+</head>
+
+
+
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="logo-nav">
+        <a href="./index.html"><img src="./assets/img/logo1.png" alt="logo principal da navegação Envolved">
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="./index.html" rel="noopener noreferrer">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a href="./loja.html" rel="noopener noreferrer">Loja</a>
+        </li>
+        <li class="nav-item">
+          <a href="/equipe.html" rel="noopener noreferrer">Equipe</a>
+        </li>
+        <li class="nav-item">
+          <a href="./regras.html" rel="noopener noreferrer">Regras </a>
+        </li>
+      </ul>
+      <div class="menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+
+
+  </header>
+  <main>
+    <section class="swiper mySwiper">
+      <div class="cont-title">
+        <h3 class="title">EQUIPE ONIX</h3>
+
+        <p class="desc">Quando o assunto é trabalho em equipe, não há nada mais poderoso do que a colaboração. Afinal, o
+          trabalho em equipe transforma os sonhos em realidade, e juntos conseguimos criar algo que muitos estavam
+          querendo a muito tempo, uma cidade leve e com muitas opções de trabalho e formas de construir seu Role Play,
+          com trabalho e esforço de Julio, Adryan e Wesley.</p>
+      </div>
+
+      <div class="swiper-wrapper">
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="./assets/img/perfil1.png" alt="card image">
+          </div>
+
+          <div class="card__content">
+            <span class="card__title">Fundador</span>
+            <span class="card__name">Julio</span>
+            <p class="card__text">Olá, Me chamo <b>Julio</b> Fundador Geral do <b>Onix Roleplay</b>, atualmente sou dono
+              do serve, e programador</p>
+
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="./assets/img/perfil2.png" alt="card image">
+          </div>
+
+          <div class="card__content">
+            <span class="card__title">Fundador</span>
+            <span class="card__name">Adryan</span>
+            <p class="card__text">Olá, Me chamo <b>Adryan</b> Fundador Geral do <b>Onix Roleplay</b>, atualmente sou
+              administrador geral do serve, e programador</p>
+
+          </div>
+        </div>
+
+        <div class="card swiper-slide">
+          <div class="card__image">
+            <img src="./assets/img/perfil3.png" alt="card image">
+          </div>
+
+          <div class="card__content">
+            <span class="card__title">Co-Fundadora</span>
+            <span class="card__name">Wesley</span>
+            <p class="card__text">Olá, Me chamo <b>Wrunna</b> Co Fundadora do <b>Onix Roleplay</b>, atualmente sou
+              administradora geral do serve, Responsavel Staff e Responsavel por vendas, Responsavel Staffs</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/app.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+
+</html>
